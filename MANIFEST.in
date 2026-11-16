@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include paybook_sync *.css
+recursive-include paybook_sync *.csv
+recursive-include paybook_sync *.html
+recursive-include paybook_sync *.ico
+recursive-include paybook_sync *.js
+recursive-include paybook_sync *.json
+recursive-include paybook_sync *.md
+recursive-include paybook_sync *.png
+recursive-include paybook_sync *.py
+recursive-include paybook_sync *.svg
+recursive-include paybook_sync *.txt
+recursive-exclude paybook_sync *.pyc
